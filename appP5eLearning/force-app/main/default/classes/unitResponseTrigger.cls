@@ -64,6 +64,8 @@ public with sharing class unitResponseTrigger {
             }
 
             if(unitResp.Status__c == 'Success'){
+                unitResp.Stage__c= 'Completed';
+
                 if(unitResp.Tries__c == 1){
                     unitResp.Score__c = unitRespFromDb.Unit__r.Score__c;  
 
