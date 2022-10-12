@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is a Lightning Message Channel for the App e-learning proyect.</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>This are the units passed</description>
+        <fieldName>UnitsPassed</fieldName>
+    </lightningMessageFields>
+    <masterLabel>TrailMessageChannel</masterLabel>
+</LightningMessageChannel>
